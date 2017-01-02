@@ -1,0 +1,14 @@
+name: SafeChunk
+main: net.walkingcraft.main.SafeChunk
+version: 1.0
+author: Ricardo Gosch
+commands:
+  terreno:
+    description: Comando do sistema de protecao de terrenos por chunks.
+    aliases: [ground, land]
+    
+permissions:
+  land.buy:
+    description: Permite que o player possa comprar terrenos.
+  land.adm:
+    description: Permite que o player possa administrar terrenos.
